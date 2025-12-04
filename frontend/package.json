@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build":"cd frontend && npm install && npm run build",
     "start": "next start",
     "lint": "next lint"
+
   },
   "dependencies": {
     "@prisma/client": "^5.7.1",
